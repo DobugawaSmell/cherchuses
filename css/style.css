@@ -1,0 +1,1077 @@
+body{
+    margin: 0px;
+    background-color: #FAF9F0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1025px){
+/* sidemenu */
+#sideMenuCol{
+    position: fixed;
+    left:0px;
+    top: 0px;
+    width:18vw;
+    height:100vh;
+    background-color: #84A3BC;
+    align-items: center;
+}
+
+#sideMenu_content{
+    margin: 30% 20% auto 20%;
+    width: 60%;
+}
+
+#sideMenu_logo{
+    width: 104px;
+    height: 104px;
+    margin:auto auto 77px auto;
+}
+
+.sideMenu_link{
+    font-family: 'Poppins', sans-serif;
+    color: #F2F2F2;
+    font-size: 18.95px;
+    font-weight: 200;
+    width: 100%;
+    height: auto;
+    margin:2vh auto 0px auto;
+}
+
+.sideMenu_link a{
+    color: #FFFFFF;
+}
+
+.sideMenu_link a:after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    transition: 600ms;
+}
+
+.sideMenu_link a:hover::after{
+    width: 100%;
+    transition: 600ms;
+}
+
+#sideMenu_border{
+    width: 100%;
+    height: 1px;
+    background-color: #F2F2F2AA;
+    margin:30px auto 30px auto;
+}
+
+#sideMenu_close{
+    display: none;
+}
+
+#sideMenuBtn {
+    display: none;
+}
+
+
+/* MainPage */
+
+#mainCol{
+    margin: 0px 0px 0px 18vw;
+    width: 82vw;
+    height: auto;
+}
+
+#mainCol_content{
+    width: 82%;
+    height: auto;
+    margin: 0px 18% 0px 10%;
+    align-items: center;
+}
+
+#mainCol_slideshow {
+    overflow-x: hidden;
+    overflow-y: hidden;
+	white-space: nowrap;
+    width: 100%;
+    height: 60%;
+    margin: 50px 0 0 0;
+    touch-action: none;
+}
+
+#mainCol_slideshow::-webkit-scrollbar {
+    display: none;
+}
+
+#mainCol_slideshow img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    margin: 0px;
+}
+
+#mainCol_image_indi_wrap {
+    width:100%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#mainCol_image_indi_back {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+
+#mainCol_image_indi{
+    width:0%;
+    height:100%;
+    background-color: #0d0d0d;
+}   
+
+#mainCol_title{
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #0d0d0d;
+    font-size: 44.88px;
+    width: 90%;
+    margin: 90px auto auto auto;
+    text-align: center;
+}
+
+#mainCol_top_buttonWrap {
+    display: flex;
+    margin: 84px auto auto auto;
+    width: 90%;
+    height: auto;
+}
+
+.buttonWrap {
+    display: flex;
+    margin: 84px auto auto auto;
+    width: 90%;
+    height: auto;
+}
+
+#reserve_btn{
+    margin: 0px auto 0px 0px;
+    
+}
+
+#takeoutMenu_btn {
+    margin: 0px 0px 0px auto;
+}
+
+#mainCol_whats_chercheuses{
+    display: flex;
+    width: 90%;
+    margin: 140px auto auto auto;
+}
+
+#mainCol_whats_chercheuses_text1 {
+    width:20%;
+    height: auto;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #0d0d0d;
+    font-size: 25.67px;
+}
+
+#mainCol_whats_chercheuses_text2 {
+    width:70%;
+    height: auto;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 14.22px;
+    margin-left: 50px;
+    padding-top: 11px;
+}
+
+#mainCol_news_section {
+    align-items: center;
+    width: 90%;
+    margin-top: 130px;
+}
+
+#mainCol_news_section_title {
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #0d0d0d;
+    font-size: 25.26px;
+    width: 120px;
+    margin: 0px auto 0px auto;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #0d0d0d;
+}
+
+#mainCol_news_section_cardWrap {
+    display: flex;
+    flex: 266px;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+#mainCol_course_section {
+    margin: 130px auto auto auto;
+}
+
+#mainCol_course_section_title {
+    font-family: 'Cormorant Infant', serif;
+    color: #0d0d0d;
+    font-size: 5vw;
+    line-height: 90%;
+    position: relative;
+    z-index: 1;
+}
+
+#mainCol_course_section_main {
+    display:flex;
+    width: 100%;
+    margin: -10px auto auto 0px; 
+}
+
+#mainCol_course_section_image {
+    width: 45%;
+    height: 620px;
+    z-index: 0;
+}
+
+#mainCol_course_section_textWrap {
+    width: 50%;
+    height: auto;
+    margin: 0px auto 0px 45px;
+}
+
+#course_reserve_btn {
+    margin-left: auto;
+}
+
+#mainCol_course_section_text1 {
+    width: 100%;
+    margin: 0px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 25.26px;
+}
+
+#mainCol_course_section_text2 {
+    width: 100%;
+    margin: 40px auto auto auto;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 14.22px;
+}
+
+#mainCol_takeout_section {
+    margin: 130px auto auto auto;
+}
+
+#mainCol_takeout_section_title {
+    font-family: 'Cormorant Infant', serif;
+    color: #0d0d0d;
+    font-size: 5vw;
+    line-height: 90%;
+    position: relative;
+    z-index: 1;
+}
+
+#mainCol_takeout_section_main {
+    display:flex;
+    width: 100%;
+    margin: -10px auto auto 0px; 
+}
+
+#mainCol_takeout_section_image {
+    width: 45%;
+    height: 620px;
+    z-index: 0;
+}
+
+#mainCol_takeout_section_textWrap {
+    width: 50%;
+    height: auto;
+    margin: 0px auto 0px 45px;
+}
+
+#mainCol_takeout_section_text1 {
+    width: 100%;
+    margin: 0px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 25.26px;
+}
+
+#mainCol_takeout_section_text2 {
+    width: 100%;
+    margin: 40px auto auto auto;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 14.22px;
+}
+
+#takeout_menu_btn {
+    margin: 0px auto 0px auto;
+}
+
+#mainCol_timetable_section {
+    width: 100%;
+    margin-top: 184px;
+}
+
+#mainCol_timetable_section_title {
+    width: 200px;
+    text-align: center;
+    margin: 125px auto auto auto;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #0d0d0d;
+    font-size: 25.26px;
+    border-bottom: #0d0d0d;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#mainCol_timetable_section_text {
+    width:30vw;
+    text-align: left;
+    align-items: center;
+    margin: 44px auto auto auto;
+}
+
+#mainCol_timetable_section_text table {
+    width:60%;
+    display: block;
+    margin: 0px 20% auto 20%;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 14.22px;
+}
+
+#mainCol_timetable_section_text th {
+    padding-right:20px;
+}
+
+#mainCol_timetable_section_imageWrap {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#mainCol_timetable_section_image {
+    width: auto;
+    display: block;
+    align-self: center;
+    margin: 80px auto auto auto; 
+}
+
+#mainCol_access_section {
+    width: 100%;
+    margin-top: 224px;
+}
+
+#mainCol_access_section_title {
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #0d0d0d;
+    font-size: 44.88px;
+}
+
+#mainCol_access_section_text {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 14.22px;
+    margin-top: 46px;
+}
+
+#mainCol_access_section_text span {
+    font-size: 18.95px;
+}
+
+#mainCol_access_section_map {
+    margin-top: 68px;
+}
+
+#mainCol_footer_section {
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #0d0d0d;
+    width: 100%;
+    height: auto;
+    margin: 118px auto 20px auto;
+}
+
+#mainCol_footer_section span{
+    font-size: 33.67px;
+}
+
+#mainCol_footer_section p{
+    font-size: 14.22px;
+    margin: 26px auto 0px auto;
+}
+
+/* class */
+
+.mainCol_button{
+    width: 28vw;
+    height: auto;
+    padding: 5px 0px 5px 0px;
+    border-style: solid;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-width: 1px;
+    border-color: #0d0d0d;
+    background-color: #ffffff00;
+    transition: 400ms;
+}
+
+.buttonWrap a:hover {
+    background-color: #0d0d0d;
+    color: #c1c1c1;
+    transition: 400ms;
+}
+
+.buttonWrap a:hover .btn_text1{
+    color: #dfdfdf;
+    transition: 400ms;
+}
+
+.buttonWrap a:hover .btn_text2{
+    color: #dfdfdf;
+    transition: 400ms;
+}
+
+.two_col_btnWrap {
+    display: block;
+    margin: 84px auto auto auto;
+    width: 90%;
+    height: auto;
+}
+
+.btn_text1 {
+    align-self: center;
+    text-align: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #0d0d0d;
+    margin: 18px auto 3px auto;
+    font-size: 25.26px;
+    transition: 400ms;
+}
+
+.btn_text2 {
+    align-self: center;
+    text-align: center;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    margin: 0px auto 14px auto;
+    font-size: 10.66px;
+    transition: 400ms;
+}
+
+.news_section_card {
+    width: 266px;
+    height: 436px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    box-shadow: 
+        0 1.9px 2.5px rgba(0, 0, 20, 0.057),
+        0 5px 6.1px rgba(0, 0, 20, 0.076),
+        0 10.1px 11.4px rgba(0, 0, 20, 0.086),
+        0 19.2px 19.8px rgba(0, 0, 20, 0.092)
+}
+
+.news_section_card_image {
+    width: 85%;
+    height: 261px;
+    margin: 21px auto 0px auto;
+    background-color: #c4c4c4;
+}
+
+.news_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.news_section_card_title {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 14.22px;
+    width: 85%;
+    margin: 28px auto 0px auto;
+}
+
+.news_section_card_text {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #5B5B5B;
+    font-size: 10.66px;
+    width: 85%;
+    margin: 5px auto 0px auto;
+}
+
+.news_section_card_date {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #0d0d0d;
+    font-size: 8px;
+    width: 85%;
+    margin: 23px auto 0px auto;
+    text-align: right;
+}
+}
+
+@media screen and (max-width: 1024px){
+    /* sidemenu */
+    #sideMenuCol{
+        position: fixed;
+        left:-100vw;
+        top: 0px;
+        width:100vw;
+        height:100vh;
+        background-color: #84A3BC;
+        align-items: center;
+        z-index: 4;
+        transition: 400ms;
+    }
+
+    .nav-open{
+        transform: translateX(100%);
+        transition: 400ms;
+    }
+
+    #sideMenu_content{
+        margin: 10vw;
+        width: 80vw;
+    }
+
+    #sideMenu_logo{
+        width: 20vw;
+        max-width: 80px;
+        height: 20vw;
+        max-height:80px;
+        margin:auto auto 4vw auto;
+    }
+
+    .sideMenu_link{
+        font-family: 'Poppins', sans-serif;
+        color: #F2F2F2;
+        font-size: min(24px, 2vw);
+        font-weight: 200;
+        width: 100%;
+        height: auto;
+        margin:1.5vw auto 0px auto;
+    }
+
+    .sideMenu_link a{
+        font-size: min(24px, 2vw);
+        color: #FFFFFF;
+    }
+
+    .sideMenu_link a:after {
+        content: "";
+        display: block;
+        position: relative;
+        width: 0%;
+        height: 1px;
+        background-color: #fff;
+        transition: 600ms;
+    }
+
+    .sideMenu_link a:hover::after{
+        width: 100%;
+        transition: 600ms;
+    }
+
+    #sideMenu_border{
+        width: 100%;
+        height: 1px;
+        background-color: #F2F2F2AA;
+        margin:30px auto 30px auto;
+    }
+
+    #sideMenu_close{
+        position: absolute;
+        right: 32px;
+        bottom: 0px;
+    }
+
+    #sideMenu_close p{
+        font-family: 'Poppins', sans-serif;
+        color: #F2F2F2;
+        font-size: 2.5vh;
+        font-weight: 200;
+    }
+
+    #sideMenuBtn {
+        position: fixed;
+        display: flex;
+        width: 15vw;
+        max-width: 64px;
+        height: 15vw;
+        max-height: 64px;
+        border-radius: 50%;
+        left: 50vw;
+        bottom: 10px;
+        
+        color: #F2F2F2;
+        background-color: #84A3BC;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: clamp(9px, 3vh, 16px);
+        z-index: 2;
+    }
+
+    #sideMenuBtn p{
+        margin: auto auto auto auto;
+    }
+
+
+    /* MainPage */
+
+    #mainCol{
+
+        margin: 0px 5% 0px 5%;
+        width: 90%;
+        height: auto;
+    }
+
+    #mainCol_content{
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+        align-items: center;
+    }
+
+    #mainCol_slideshow {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        white-space: nowrap;
+        width: 100%;
+        height: 40vh;
+        margin: 24px 0 0 0;
+        touch-action: none;
+    }
+
+    #mainCol_slideshow::-webkit-scrollbar {
+        display: none;
+    }
+
+    #mainCol_slideshow img{
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        margin: 0px;
+    }
+
+    #mainCol_image_indi_wrap {
+        width:100%;
+        height: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #mainCol_image_indi_back {
+        width: 100%;
+        height: 1px;
+        background-color: #e0e0e0;
+    }
+
+    #mainCol_image_indi{
+        width:0%;
+        height:100%;
+        background-color: #0d0d0d;
+    }   
+
+    #mainCol_title{
+        font-family: 'Sorts Mill Goudy', serif;
+        color: #0d0d0d;
+        font-size: 8vw;
+        width: 90%;
+        margin: 48px auto auto auto;
+        text-align: center;
+    }
+
+    .buttonWrap {
+        display: block;
+        margin: 48px 5% auto 5%;
+        width: 90%;
+        height: auto;
+    }
+
+    #reserve_btn{
+        margin: 0px auto 0px auto;
+        
+    }
+
+    #takeoutMenu_btn {
+        margin: 0px 0px 0px auto;
+    }
+
+    #mainCol_whats_chercheuses{
+        display: block;
+        width: 100%;
+        margin: 140px 5% auto 5%;
+    }
+
+    #mainCol_whats_chercheuses_text1 {
+        width:100%;
+        height: auto;
+        font-family: 'Sorts Mill Goudy', serif;
+        color: #0d0d0d;
+        font-size: 25.67px;
+    }
+
+    #mainCol_whats_chercheuses_text2 {
+        width:90%;
+        height: auto;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 14.22px;
+        margin: auto 0% auto 0%;
+        padding-top: 24px;
+    }
+
+    #mainCol_news_section {
+        align-items: center;
+        width: 100%;
+        margin-top: 130px;
+    }
+
+    #mainCol_news_section_title {
+        font-family: 'Sorts Mill Goudy', serif;
+        color: #0d0d0d;
+        font-size: 25.26px;
+        width: 120px;
+        margin: 0px auto 0px auto;
+        padding: 5px 0px 5px 0px;
+        text-align: center;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #0d0d0d;
+    }
+
+    #mainCol_news_section_cardWrap {
+        display: block;
+        justify-content: center;
+        padding-left: auto;
+        padding-right: auto;
+        margin-top: 33px;
+    }
+
+    #mainCol_course_section {
+        margin: 130px auto auto auto;
+    }
+
+    #mainCol_course_section_title {
+        font-family: 'Cormorant Infant', serif;
+        color: #0d0d0d;
+        font-size: 18vw;
+        line-height: 90%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #mainCol_course_section_main {
+        display:block;
+        width: 100%;
+        margin: -10px auto auto 0px; 
+    }
+
+    #mainCol_course_section_image {
+        width: 100%;
+        height: 40%;
+        z-index: 0;
+    }
+
+    #mainCol_course_section_textWrap {
+        width: 100%;
+        height: auto;
+        margin: 80px auto 0px 0px;
+    }
+
+    #course_reserve_btn {
+        margin-left: auto;
+    }
+
+    #mainCol_course_section_text1 {
+        width: 100%;
+        margin: 0px;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 25.26px;
+    }
+
+    #mainCol_course_section_text2 {
+        width: 100%;
+        margin: 40px auto auto auto;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 14.22px;
+    }
+
+    #mainCol_takeout_section {
+        margin: 130px auto auto auto;
+    }
+
+    #mainCol_takeout_section_title {
+        font-family: 'Cormorant Infant', serif;
+        color: #0d0d0d;
+        font-size: 18vw;
+        line-height: 90%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #mainCol_takeout_section_main {
+        display:block;
+        width: 100%;
+        margin: -10px auto auto 0px; 
+    }
+
+    #mainCol_takeout_section_image {
+        width: 100%;
+        height: 40%;
+        z-index: 0;
+    }
+
+    #mainCol_takeout_section_textWrap {
+        width: 100%;
+        height: auto;
+        margin: 80px auto 0px 0px;
+    }
+
+    #mainCol_takeout_section_text1 {
+        width: 100%;
+        margin: 0px;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 25.26px;
+    }
+
+    #mainCol_takeout_section_text2 {
+        width: 100%;
+        margin: 40px auto auto auto;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 14.22px;
+    }
+
+    #takeout_menu_btn {
+        margin: 0px auto 0px auto;
+    }
+
+    #mainCol_timetable_section {
+        width: 100%;
+        margin-top: 184px;
+    }
+
+    #mainCol_timetable_section_title {
+        width: 200px;
+        text-align: center;
+        margin: 125px auto auto auto;
+        font-family: 'Sorts Mill Goudy', serif;
+        color: #0d0d0d;
+        font-size: 25.26px;
+        border-bottom: #0d0d0d;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+
+    #mainCol_timetable_section_text {
+        width:100%;
+        text-align: left;
+        align-items: center;
+        margin: 44px auto auto auto;
+    }
+
+    #mainCol_timetable_section_text table {
+        width:90%;
+        display: block;
+        margin: 0px 5% auto 5%;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 14.22px;
+    }
+
+    #mainCol_timetable_section_text th {
+        padding-right:20px;
+    }
+
+    #mainCol_timetable_section_imageWrap {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+
+    #mainCol_timetable_section_image {
+        width: auto;
+        display: block;
+        object-fit: fill;
+        align-self: center;
+        margin: 80px auto auto auto; 
+    }
+
+    #mainCol_access_section {
+        width: 100%;
+        margin-top: 224px;
+    }
+
+    #mainCol_access_section_title {
+        font-family: 'Sorts Mill Goudy', serif;
+        color: #0d0d0d;
+        font-size: 44.88px;
+    }
+
+    #mainCol_access_section_text {
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 14.22px;
+        margin-top: 46px;
+    }
+
+    #mainCol_access_section_text span {
+        font-size: 18.95px;
+    }
+
+    #mainCol_access_section_map {
+        margin-top: 68px;
+    }
+
+    #mainCol_footer_section {
+        font-family: 'Sorts Mill Goudy', serif;
+        color: #0d0d0d;
+        width: 100%;
+        height: auto;
+        margin: 118px auto 20px auto;
+    }
+
+    #mainCol_footer_section span{
+        font-size: 33.67px;
+    }
+
+    #mainCol_footer_section p{
+        font-size: 14.22px;
+        margin: 26px auto 0px auto;
+    }
+
+    /* class */
+
+    .mainCol_button{
+        width: 100%;
+        height: auto;
+        padding: 5px 0px 5px 0px;
+        margin: auto 0px 40px 0px;
+        border-style: solid;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-width: 1px;
+        border-color: #0d0d0d;
+        background-color: #ffffff00;
+        transition: 400ms;
+    }
+
+    .buttonWrap a:hover {
+        background-color: #0d0d0d;
+        color: #c1c1c1;
+        transition: 400ms;
+    }
+
+    .buttonWrap a:hover .btn_text1{
+        color: #dfdfdf;
+        transition: 400ms;
+    }
+
+    .buttonWrap a:hover .btn_text2{
+        color: #dfdfdf;
+        transition: 400ms;
+    }
+
+    .two_col_btnWrap {
+        display: block;
+        margin: 84px auto auto auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .btn_text1 {
+        align-self: center;
+        text-align: center;
+        font-family: 'Sorts Mill Goudy', serif;
+        color: #0d0d0d;
+        margin: 18px auto 3px auto;
+        font-size: 2.8vh;
+        transition: 400ms;
+    }
+
+    .btn_text2 {
+        align-self: center;
+        text-align: center;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        margin: 0px auto 14px auto;
+        font-size: 1vh;
+        transition: 400ms;
+    }
+
+    .news_section_card {
+        width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        margin-bottom: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        align-items: center;
+        box-shadow: 
+            0 1.9px 2.5px rgba(0, 0, 20, 0.057),
+            0 5px 6.1px rgba(0, 0, 20, 0.076),
+            0 10.1px 11.4px rgba(0, 0, 20, 0.086),
+            0 19.2px 19.8px rgba(0, 0, 20, 0.092)
+    }
+
+    .news_section_card_image {
+        width: 85%;
+        height: 261px;
+        margin: 21px auto 0px auto;
+        background-color: #c4c4c4;
+    }
+
+    .news_image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0px;
+    }
+
+    .news_section_card_title {
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 14.22px;
+        width: 85%;
+        margin: 28px auto 0px auto;
+    }
+
+    .news_section_card_text {
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #5B5B5B;
+        font-size: 10.66px;
+        width: 85%;
+        margin: 5px auto 0px auto;
+    }
+
+    .news_section_card_date {
+        font-family: 'Sawarabi Gothic', sans-serif;
+        color: #0d0d0d;
+        font-size: 8px;
+        width: 85%;
+        margin: 23px auto 0px auto;
+        text-align: right;
+    }
+
+}
