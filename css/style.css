@@ -99,8 +99,9 @@ img{
     overflow-y: hidden;
 	white-space: nowrap;
     width: 100%;
+    max-width: 800px;
     height: 60%;
-    margin: 50px 0 0 0;
+    margin: 50px auto 0 auto;
     touch-action: none;
 }
 
@@ -117,10 +118,12 @@ img{
 
 #mainCol_image_indi_wrap {
     width:100%;
+    max-width: 800px;
     height: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 0px auto 0px auto;
 }
 
 #mainCol_image_indi_back {
